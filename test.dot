@@ -1,0 +1,27 @@
+digraph test{
+size="5,5"
+node[shape=record,style=filled,fillcolor=gray95]
+edge[dir=back, arrowtail=empty]
+
+
+Inheritance1[label="{Generalization|+ AttributeName:type\n+ Attribute|- Function}"]
+Inheritance2[label="{Generalization|+ Attribute\n+ Attribute|- Function}"]
+Implementation1[label="{Realization|+ Attribute\n+ Attribute|- Function}"]
+Implementation2[label="{Realization|+ Attribute\n+ Attribute|- Function}"]
+Association1[label="{Association|+ Attribute\n+ Attribute|- Function}"]
+Association2[label="{Association|+ Attribute\n+ Attribute|- Function}"]
+Dependency1[label="{Dependency|+ Attribute\n+ Attribute|- Function}"]
+Dependency2[label="{Dependency|+ Attribute\n+ Attribute|- Function}"]
+Aggregation1[label="{Aggregation|+ Attribute\n+ Attribute|- Function}"]
+Aggregation2[label="{Aggregation|+ Attribute\n+ Attribute|- Function}"]
+Composition1[label="{Composition|+ Attribute\n- Attribute\n# Attribute|- Function}"]
+Composition2[label="{Composition|+ Attribute\n- Attribute\n# Attribute|- Function}"]
+
+
+Inheritance1->Inheritance2
+Implementation1->Implementation2[style=dashed]
+Association1->Association2[arrowtail=vee,headlabel=0..*]
+Dependency1->Dependency2[arrowtail=vee,style=dashed]
+Aggregation1->Aggregation2[arrowtail=odiamond]
+Composition1->Composition2[arrowtail=diamond]
+}
