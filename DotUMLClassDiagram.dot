@@ -1,0 +1,91 @@
+ClassDiagram [frame=true framecolor=steelblue label="Class Diagram Test"]{
+
+class Inheritance1{
+	private AttributeName:Type
+	private abstract AttributeName:Type
+	public function()
+}
+
+class Inheritance2{
+	private AttributeName:Type
+	private abstract AttributeName:Type
+	public function():ReturnValueType
+}
+
+class Implementation1 {
+	private AttributeName:Type
+	private abstract AttributeName:Type
+	protected AttributeName:Type
+	public function():ReturnValueType
+}
+
+class Implementation2 {
+	private AttributeName:Type
+	private abstract AttributeName:Type
+	protected AttributeName:Type
+	public function():ReturnValueType
+}
+
+class Association1 {
+	private AttributeName:Type
+	private abstract AttributeName:Type
+	protected AttributeName:Type
+	public function():ReturnValueType
+}
+
+class Association2 {
+	private AttributeName:Type
+	private abstract AttributeName:Type
+	protected AttributeName:Type
+	public function():ReturnValueType
+}
+
+class Dependency1 {
+	private AttributeName:Type
+	private abstract AttributeName:Type
+	protected AttributeName:Type
+	public function():ReturnValueType
+}
+
+class Dependency2 {
+	private AttributeName:Type
+	private abstract AttributeName:Type
+	protected AttributeName:Type
+	public function():ReturnValueType
+}
+
+class Aggregation1 {
+	private AttributeName:Type
+	private abstract AttributeName:Type
+	protected AttributeName:Type
+	public function():ReturnValueType
+}
+
+class Aggregation2 {
+	private AttributeName:Type
+	private abstract AttributeName:Type
+	protected AttributeName:Type
+	public function():ReturnValueType
+}
+
+class Composition1 {
+	private AttributeName:Type
+	private abstract AttributeName:Type
+	protected AttributeName:Type
+	public function():ReturnValueType
+}
+
+class Composition2 {
+	private AttributeName:Type
+	private abstract AttributeName:Type
+	protected AttributeName:Type
+	public function():ReturnValueType
+}
+
+Inheritance1 -g-> Inheritance2;
+Implementation1 -r-> Implementation2;
+Association1 -a-> Association2;
+Dependency1 -- Dependency2;
+Aggregation1 -a-> Aggregation2;
+Composition1 -c-> Composition2;
+}
