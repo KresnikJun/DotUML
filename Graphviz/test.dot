@@ -1,0 +1,32 @@
+digraph {
+size="5,5"
+nodesep=1.0
+node[shape=record,style=filled,fillcolor=gray95]
+edge[dir=back,arrowtail=empty]
+
+
+Frame[label="{Frame|}"]
+Window[label="{Window||+ open():void\n+ close():void\n+ move():void\n+ display():void\n+ handleEvents():void}"]
+Event[label="{Event|}"]
+Shape[label="{Shape||+ draw():void\n+ erase():void\n+ move():void\n+ resize():void}"]
+Circle[label="{Circle|- radius():float\n- center():unsigned int|+ area(radius:float):double\n+ circum():void\n}"]
+Rectangle[label="{Rectangle|}"]
+Polygon[label="{Polygon|}"]
+Point[label="{Point|}"]
+ConsoleWindow[label="{ConsoleWindow|}"]
+DialogBox[label="{DialogBox|}"]
+DataController[label="{DataController|}"]
+DrawingContext[label="{DrawingContext||+ setPoint()\n+ clearScreen()\n+ getVerticalSize()}"]
+
+
+Frame->Window
+Event->Window[arrowtail=vee,style=dashed]
+{rank=same; Event; Window; Shape }
+Window->Shape[arrowtail=odiamond,taillabel="1"]
+{rank=same;Rectangle;Circle;Polygon}
+Shape->{Circle Rectangle Polygon}
+Circle->Point[arrowtail=diamond,taillabel="1"]
+Window->{ConsoleWindow DialogBox}
+DialogBox->DataController[arrowtail=vee]
+Window->DrawingContext[arrowtail=vee]
+}
