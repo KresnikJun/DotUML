@@ -12,7 +12,7 @@ Example: [UseCaseDiagram.dot]( https://github.com/KresnikJun/Tools2DrawUML/blob/
 
 Result: 
 
-![image](\UseCase\UseCase.png)
+![image](/UseCase/UseCase.png)
 
 ## Sequence
 
