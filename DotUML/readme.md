@@ -8,11 +8,11 @@ Playground: https://dotuml.com/playground.html
 
 Key words: **UseCaseDiagram**, **actor**, **usecase**, **-i->**, **.i.>**, **-e->**, **.e.>**, **-->**
 
-Example: UseCase/UseCaseDiagram.dot
+Example: [UseCaseDiagram.dot]( https://github.com/KresnikJun/Tools2DrawUML/blob/master/DotUML/UseCase/UseCaseDiagram.dot )
 
 Result: 
 
-![image]()
+![image](\UseCase\UseCase.png)
 
 ## Sequence
 
