@@ -1,7 +1,5 @@
 # UML
-Using DotUML to draw UML
-
-DotUML: https://dotuml.com/playground.html
+Using Tools to draw UML.
 
 ## UML Definition
 
