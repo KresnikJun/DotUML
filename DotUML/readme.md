@@ -8,7 +8,7 @@ Playground: https://dotuml.com/playground.html
 
 Key words: **UseCaseDiagram**, **actor**, **usecase**, **-i->**, **.i.>**, **-e->**, **.e.>**, **-->**
 
-Example: [UseCase](/UseCase/UseCaseDiagram.dot)
+Example: UseCase/UseCaseDiagram.dot
 
 Result: 
 
