@@ -6,9 +6,9 @@ Playground: https://dotuml.com/playground.html
 
 ## Use Case
 
-Key words: 
+Key words: **UseCaseDiagram**, **actor**, **usecase**, **-i->**, **.i.>**, **-e->**, **.e.>**, **-->**
 
-Example: UseCase/UseCaseDiagram.dot
+Example: [UseCase](/UseCase/UseCaseDiagram.dot)
 
 Result: 
 
