@@ -1,0 +1,14 @@
+digraph {
+	subgraph cluster1{
+    I[label="I"]
+    love[label="love"]
+    coding[label="coding"]
+  }
+  subgraph cluster2{
+    Hello[label="Hello"]
+    World[label="World"]
+  }
+  
+  I -> Hello
+  
+}
