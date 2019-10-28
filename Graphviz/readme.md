@@ -12,7 +12,7 @@ Use **digraph** to define a graph. It has many properties, such as **size**, **n
 
 Here is an example:
 
-Code: [test.dot](/test.dot)
+Code: [test.dot](test.dot)
 
 Result:
 
@@ -20,7 +20,7 @@ Result:
 
 We could use **subgraph** to make a frame outside many objects.
 
-Code: [subgraph.dot](/subgraph.dot)
+Code: [subgraph.dot](subgraph.dot)
 
 Result:
 
